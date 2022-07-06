@@ -6,6 +6,8 @@ To see it live : url
 
 To install use :
 
+yarn add tailwindcss
+
 git instructions
 
 To run it :
