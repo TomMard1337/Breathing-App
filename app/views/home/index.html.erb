@@ -1,0 +1,30 @@
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%= stylesheet_link_tag "breathe" %> 
+    
+    <title>Breathing Aapp</title>
+  </head>
+  
+  <body>
+      <div class="input">
+      <label>Select Breaths</label>
+      <select id="breath-mode" autocomplete="off">
+        <option value="Resonant" selected>30 Resonant breathing</option>
+         <option value="4-7-8">4-7-8 Breathing</option>
+         <option value="Box">10 Box method</option>
+         <option value="BOF">Breath of Fire</option>
+      </select>
+    </div>
+
+    <div class="circle-wrap">
+      <div class="circle-outline"></div>
+      <div class="circle-progress"></div>
+    </div>
+    <p class="breaths">Breaths remaining <span class="breaths-text"></span></p>
+    <p class="instructions">Are you ready to start breathing?</p>
+
+    <button class="startBreathing">Start Breathing</button>
+      </body>
+
+
+
