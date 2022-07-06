@@ -1,20 +1,21 @@
-APP VERSION 1.0.0
+# Breathing app v1.0.0
 
-Breathing app 
 
-To see it live : url
+## Live https://breathing-app-rails.herokuapp.com/
+## Stack
 
-To install use :
+- Ruby version 3.1.0
+- Rails version 7.0.2.2
+- CSS tailwind
+- Jquery 
 
+
+
+## Installation instructions :
+
+```sh
+git clone https://github.com/TomMard1337/Breathing-App.git     
+cd Breathing-App
 yarn add tailwindcss
-
-git instructions
-
-To run it :
-
 bin/dev
-
-* Ruby version 3.1.0
-* Rails version 7.0.2.2
-* CSS tailwind
-* Jquery 
+```
